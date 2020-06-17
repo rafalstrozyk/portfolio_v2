@@ -5,5 +5,6 @@ export const theme = {
     textIconsColor: '#fff',
     primaryTextColor: '#212121',
     secondaryTextColor: '#757575',
-    dividerColor: '#BDBDBD'
+    dividerColor: '#BDBDBD',
+    boxShadowOne: '1rem 2rem 2.5rem rgba(33, 33, 33, .5)'
 };
