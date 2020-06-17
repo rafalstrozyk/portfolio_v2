@@ -3,7 +3,7 @@ import React from 'react';
  import {ProjectsSectionStyled} from './Projects.style';
 
 const Projects = () => (
-    <ProjectsSectionStyled>Projects</ProjectsSectionStyled>
+    <ProjectsSectionStyled id='sectionProjects'>Projects</ProjectsSectionStyled>
 );
 
 export default Projects;

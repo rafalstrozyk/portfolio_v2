@@ -7,15 +7,19 @@ import Header from './containers/Header/Header';
 import SectionMain from './containers/Main/Main';
 import SectionProjects from './containers/Projects/Projects';
 import SectionSkills from './containers/Skills/Skills';
+import Navigation from './containers/Navigation/Navigation';
 
 const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalStyle />
+			<Navigation />
 			<Header />
-			<SectionMain />
-			<SectionProjects />
-			<SectionSkills />
+			<main>
+				<SectionMain />
+				<SectionSkills />
+				<SectionProjects />
+			</main>
 		</ThemeProvider>
 	);
 };

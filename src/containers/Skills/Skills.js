@@ -3,7 +3,7 @@ import React from 'react';
 import {SkillsSectionStyled} from './Skills.style';
 
 const Skills = () => (
-    <SkillsSectionStyled>Skills</SkillsSectionStyled>
+    <SkillsSectionStyled id='sectionSkills'>Skills</SkillsSectionStyled>
 );
 
 export default Skills;
