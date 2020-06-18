@@ -3,6 +3,7 @@ export const theme = {
     lightPrimaryColor: '#b2dfdb',
     primaryColor: '#009688',
     textIconsColor: '#fff',
+    backColor: '#f2f2f2',
     primaryTextColor: '#212121',
     secondaryTextColor: '#757575',
     dividerColor: '#BDBDBD',

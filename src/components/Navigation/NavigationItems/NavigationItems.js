@@ -9,28 +9,28 @@ const NavigationItems = () => (
 			to='sectionMain'
 			spy={true}
 			smooth={true}
-			offset={-15}
+			offset={-50}
 			duration={500}
 		>O mnie</NavigationItem>
         <NavigationItem
 			to='sectionSkills'
 			spy={true}
 			smooth={true}
-			offset={-15}
+			offset={-50}
 			duration={500}
 		>Umiejętności</NavigationItem>
 		<NavigationItem
 			to='sectionProjects'
 			spy={true}
 			smooth={true}
-			offset={-15}
+			offset={-50}
 			duration={500}
 		>Projekty</NavigationItem>
 		<NavigationItem
 			to='sectionHeader'
 			spy={true}
 			smooth={true}
-			offset={-15}
+			offset={-65}
 			duration={500}
 		>Do góry</NavigationItem>
     </NavStyled>

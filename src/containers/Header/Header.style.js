@@ -11,7 +11,7 @@ export const HeaderStyled = styled.header`
 		url(${image});
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+	height: 105vh;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
