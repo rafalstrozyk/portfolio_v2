@@ -13,8 +13,12 @@ export const GlobalStyle = createGlobalStyle `
     }
     
     html {
-        font-size: 62.5%;
+        font-size: 62.5%; // 10px
         color: ${({theme}) => theme.primaryTextColor};
+
+        @media only screen and (max-width: 900px) {
+            font-size: 56.25%; // 9px
+        }
         
     }
 
