@@ -18,6 +18,7 @@ export const HeaderStyled = styled.header`
 	justify-content: center;
 	align-items: center;
 
+
 	& img {
 		width: 25rem;
 		height: 25rem;
