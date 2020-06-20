@@ -2,12 +2,13 @@ import React from 'react';
 
 import { MainSectionStyled } from './Main.style';
 import SecondTitle from '../../components/Headers/h2_v1/h2_v1';
+import DescriptionTitle from '../../components/Headers/h3_v1/h3_v1';
 
 const Main = () => (
 	<MainSectionStyled id='sectionMain'>
 		<SecondTitle>O mnie</SecondTitle>
 		<div>
-			<h3>Kim jestem?</h3>
+			<DescriptionTitle>Kim jestem?</DescriptionTitle>
 
 			<p>
 				Cześć! Nazywam się Rafał Stróżyk. W 2019 roku wybrałem co tak na prawdę
@@ -22,7 +23,7 @@ const Main = () => (
 			</p>
 		</div>
 		<div>
-			<h3>Dlaczego programowanie?</h3>
+			<DescriptionTitle>Dlaczego programowanie?</DescriptionTitle>
 			<p>
 				Zainteresowałem się programowaniem po skończeniu technikum, chciałem
 				zrozumieć jak działa komputer, i wszystko co z nim związane. Zrozumiałem
@@ -32,7 +33,7 @@ const Main = () => (
 			</p>
 		</div>
 		<div>
-			<h3>Czym się zajmuję aktualnie?</h3>
+			<DescriptionTitle>Czym się zajmuję aktualnie?</DescriptionTitle>
 			<p>
 				Aktualnie jestem na drugim roku studiowania informatyki stosowanej,
 				szukam także pierwszej pracy jako Junior Front-end Developer. Tworzę

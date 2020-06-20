@@ -16,6 +16,4 @@ export const H2TitleStyled = styled.h2 `
 	& > * {
 		transform: skewY(4deg);
     }
-
-    margin: 4rem 0;
 `
