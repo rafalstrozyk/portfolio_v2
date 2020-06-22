@@ -17,7 +17,7 @@ export const MainSectionStyled = styled.section `
 
         & p {
                 margin-top: 1.5rem;
-                font-size: 1.9rem;
+                
             }
     }
 
