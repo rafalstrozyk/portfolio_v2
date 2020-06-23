@@ -11,6 +11,13 @@ import {ReactComponent as ReactLogo} from './teh_logos/react-logo.svg';
 import {ReactComponent as ReduxLogo} from './teh_logos/redux-logo.svg';
 import {ReactComponent as SassLogo} from './teh_logos/sass-logo.svg';
 import {ReactComponent as WebpackLogo} from './teh_logos/webpack-logo.svg';
+import {ReactComponent as StyledComponentsLogo} from './teh_logos/styled-components-logo.svg';
+import {ReactComponent as GatsbyLogo} from './teh_logos/gatsby-logo.svg';
+// import {ReactComponent as GulpLogo} from './teh_logos/gulp-logo.svg';
+import {ReactComponent as GraphQLLogo} from './teh_logos/graphQL-logo.svg';
+import {ReactComponent as NextjsLogo} from './teh_logos/nextjs-logo.svg';
+import {ReactComponent as VueLogo} from './teh_logos/vue-js-logo.svg';
+
 
 export const logos = {
     css: <Css3Logo />,
@@ -24,5 +31,11 @@ export const logos = {
     react: <ReactLogo />,
     redux: <ReduxLogo />,
     sass: <SassLogo />,
-    webpack: <WebpackLogo />
+    webpack: <WebpackLogo />,
+    styledComponents: <StyledComponentsLogo />,
+    gatsby: <GatsbyLogo />,
+    
+    graphQl: <GraphQLLogo />,
+    next: <NextjsLogo />,
+    vue: <VueLogo />
 }
