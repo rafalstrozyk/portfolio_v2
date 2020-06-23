@@ -11,6 +11,7 @@ export const H2TitleStyled = styled.h2 `
     background: ${({theme}) => theme.primaryTextColor};
     align-self: center;
     padding: 1.5rem 3.5rem;
+    box-shadow: ${({ theme }) => theme.boxShadowTwo};
 
     transform: skewY(-4deg);
 	& > * {

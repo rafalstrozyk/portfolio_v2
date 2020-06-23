@@ -7,5 +7,6 @@ export const theme = {
     primaryTextColor: '#212121',
     secondaryTextColor: '#757575',
     dividerColor: '#BDBDBD',
-    boxShadowOne: '1rem 2rem 2.5rem rgba(33, 33, 33, .5)'
+    boxShadowOne: '1rem 2rem 2.5rem rgba(33, 33, 33, .5)',
+    boxShadowTwo: '1rem 2rem 2.5rem rgba(33, 33, 33, .1)',
 };
