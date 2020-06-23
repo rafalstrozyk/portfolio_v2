@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SkillsSectionStyled = styled.section`
-	background-color: ${({ theme }) => theme.darkPrimaryColor};
+	background-color: ${({ theme }) => theme.primaryColor};
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -16,60 +16,82 @@ export const SkillsSectionStyled = styled.section`
 export const Container = styled.div`
 	width: 80%;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background: ${({ theme }) => theme.backColor};
+	transform: skewY(3deg);
+	& > * {
+		transform: skewY(-3deg);
+	}
+	padding: 5rem;
+	margin: 3rem 0;
+    box-shadow: ${({ theme }) => theme.boxShadowOne};
 `;
 
 export const Quotation = styled.p`
-	width: 50%;
+	width: 70rem;
 	margin-bottom: 5rem;
 	color: ${({ theme }) => theme.textIconsColor};
 	font-style: italic;
 	font-weight: 100;
-    position: relative;
-    text-align: center;
+	position: relative;
+	text-align: center;
 
-    & span {
-        font-size: 4rem;
-        color: ${({ theme }) => theme.lightPrimaryColor};
-        position: absolute;
-    }
+	& span {
+		font-size: 4rem;
+		color: ${({ theme }) => theme.lightPrimaryColor};
+		position: absolute;
+	}
 
-    & span:first-child {
-        margin-right: 1rem;
-        bottom: 3rem;
-        left: 1.5rem;
-    }
+	& span:first-child {
+		margin-right: 1rem;
+		bottom: 3rem;
+		left: 1.5rem;
+	}
 
-    & span:last-child {
-        margin-left: 1rem;
-        top: 1.5rem;
-        right: 2rem;
-    }
+	& span:last-child {
+		margin-left: 1rem;
+		top: 1.5rem;
+		right: 2rem;
+	}
 `;
 
 export const ListContainer = styled.div`
-    background: ${({ theme }) => theme.backColor};
-    padding: 3.5rem;
-    border-radius: 10px;
-    color: ${({ theme }) => theme.textIconsColor};
-   
+	margin-top: 5rem;
 
-    ul {
-        list-style: none;
-        margin-top: 2rem;
+	& h3 {
+		margin-bottom: 2rem;
+	}
+    display: flex;
+    flex-direction: column;
 
-        & li {
-            font-size: 1.5rem;
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;  
-            display: inline;
-           
-        }
-
-        & svg {
-            width: auto;
-            height: 5rem;
-        }
+    & p {
+        align-self: center;
+        font-size: 2.5rem;
+        color: ${({ theme }) => theme.primaryColor};
     }
-`
+`;
+
+export const LinksContainer = styled.div`
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	& a {
+        transition: all .4s;
+		&:not(:last-child) {
+			margin-right: 2rem;
+		}
+
+        &:hover {
+            transform: scale(1.3) rotate(10deg) translateY(-5px);
+        }
+	}
+
+	& svg {
+		width: auto;
+		height: 8rem;
+        margin-bottom: 2rem;
+	}
+`;

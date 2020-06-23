@@ -4,11 +4,12 @@ import {
 	SkillsSectionStyled,
 	Container,
 	Quotation,
-	ListContainer
+	ListContainer,
+	LinksContainer
 } from './Skills.style';
 import SecondTitle from '../../components/Headers/h2_v1/h2_v1';
 import H3Title from '../../components/Headers/h3_v2/h3_v2';
-import {logos} from '../../assets/images/svg/svgIndex';
+import { logos } from '../../assets/images/svg/svgIndex';
 
 const Skills = () => (
 	<SkillsSectionStyled id='sectionSkills'>
@@ -21,33 +22,136 @@ const Skills = () => (
 		</Quotation>
 		<Container>
 			<ListContainer>
-				<H3Title>Co już znam?</H3Title>
-				<ul>
-                    {logos.css}
-                    {logos.express}
-                    {logos.git}
-                    {logos.html}
-                    {logos.js}
-                    {logos.mongo}
-                    {logos.node}
-                    {logos.npm}
-                    {logos.react}
-                    {logos.redux}
-                    {logos.sass}
-                    {logos.webpack}
-				</ul>
-                <div style={{fontSize:'12px',color:'red'}}>Test</div>
+				<H3Title>Co już znam</H3Title>
+				<LinksContainer>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.css}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.html}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.js}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.react}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.redux}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.express}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.node}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.npm}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.sass}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.git}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.mongo}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.webpack}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.styledComponents}
+					</a>
+				</LinksContainer>
 			</ListContainer>
-			{/* <ListContainer>
-				<H3Title>Co chcę się nauczyć?</H3Title>
-				<ul>
-					<li>Vue</li>
-					<li>GraphQL</li>
-					<li>Gatsby.js</li>
-					<li>Gulp</li>
-					<li>Rozwijanie tego co umiem</li>
-				</ul>
-			</ListContainer> */}
+			<ListContainer>
+				<H3Title>Co chcę się nauczyć</H3Title>
+				<LinksContainer>
+				<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.vue}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.gatsby}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.graphQl}
+					</a>
+					<a
+						href='http://how2html.pl/a-target-link-html/'
+						rel='noopener noreferrer'
+						target='_blank'
+					>
+						{logos.next}
+					</a>
+					
+				</LinksContainer>
+				<p>Rozwijać to co już znam.</p>
+			</ListContainer>
 		</Container>
 	</SkillsSectionStyled>
 );
