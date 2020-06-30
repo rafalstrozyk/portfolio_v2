@@ -36,6 +36,9 @@ export const Quotation = styled.p`
 	font-weight: 100;
 	position: relative;
 	text-align: center;
+	@media only screen and (max-width: 500px) {
+        width: auto; 
+    }
 
 	& span {
 		font-size: 4rem;
@@ -44,15 +47,21 @@ export const Quotation = styled.p`
 	}
 
 	& span:first-child {
-		margin-right: 1rem;
-		bottom: 3rem;
-		left: 1.5rem;
+		bottom: 40%;
+		left: 2%;
+		@media only screen and (max-width: 500px) {
+		bottom: 65%;
+		left: -2%;
+    }
 	}
 
 	& span:last-child {
-		margin-left: 1rem;
-		top: 1.5rem;
-		right: 2rem;
+		top: 20%;
+		right: 2%;
+		@media only screen and (max-width: 500px) {
+			top: 50%;
+		right: -2%; 
+    }
 	}
 `;
 
