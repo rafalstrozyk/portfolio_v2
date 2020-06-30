@@ -20,6 +20,12 @@ export const H3TitleStyled = styled.h3`
     position: relative;
     width: max-content;
 
+	@media only screen and (max-width: 500px) {
+        width: auto; 
+		background: ${({theme}) => theme.lightPrimaryColor};
+		padding: 1rem;
+		border-radius: 20px;
+    }
     &:after {
 			content: '';
 			position: absolute;
@@ -33,6 +39,10 @@ export const H3TitleStyled = styled.h3`
 	        background-size: 200% 200%;
 			/* background: ${({theme}) => theme.primaryColor}; */
             animation: ${backgroundAnimation} 5s ease infinite;
+			@media only screen and (max-width: 500px) {
+            background: none;
+			animation: none;
+        }
     }
 `
 
