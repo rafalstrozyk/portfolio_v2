@@ -24,7 +24,7 @@ export const Container = styled.div`
 		transform: skewY(-3deg);
 	}
 	padding: 5rem;
-	margin: 3rem 0;
+	margin: 5rem 0;
     box-shadow: ${({ theme }) => theme.boxShadowOne};
 `;
 
