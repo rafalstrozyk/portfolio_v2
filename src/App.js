@@ -10,6 +10,8 @@ import SectionSkills from './containers/Skills/Skills';
 import NavigationBar from './containers/Navigation/NavigationBar';
 import Burger from './components/Navigation/Burger/Burger';
 import { useOnClickOutside } from './hooks/clickOutside';
+import SectionContact from './containers/Contact/Contact';
+import Footer from './containers/Footer/Footer';
 
 const App = () => {
 	const [open, setOpen] = useState(false);
@@ -28,7 +30,9 @@ const App = () => {
 				<SectionMain />
 				<SectionSkills />
 				<SectionProjects />
+				<SectionContact />
 			</main>
+			<Footer />
 		</ThemeProvider>
 	);
 };
