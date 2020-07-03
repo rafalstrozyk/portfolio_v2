@@ -8,7 +8,11 @@ export const ProjectsSectionStyled = styled.section `
     justify-content: center;
     align-items: center;
 
-    & img {
-       
+    & h2 {
+        margin: 4rem 0;
+    }
+
+    & > div {
+        margin-bottom: 6rem;
     }
 `

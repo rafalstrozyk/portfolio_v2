@@ -9,7 +9,7 @@ import {
 } from './Skills.style';
 import SecondTitle from '../../components/Headers/h2_v1/h2_v1';
 import H3Title from '../../components/Headers/h3_v2/h3_v2';
-import { logos } from '../../assets/images/svg/svgIndex';
+import { logosTeh } from '../../assets/images/svg/svgIndex';
 
 const Skills = () => (
 	<SkillsSectionStyled id='sectionSkills'>
@@ -29,91 +29,91 @@ const Skills = () => (
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.css}
+						{logosTeh.css}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.html}
+						{logosTeh.html}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.js}
+						{logosTeh.js}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.react}
+						{logosTeh.react}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.redux}
+						{logosTeh.redux}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.express}
+						{logosTeh.express}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.node}
+						{logosTeh.node}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.npm}
+						{logosTeh.npm}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.sass}
+						{logosTeh.sass}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.git}
+						{logosTeh.git}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.mongo}
+						{logosTeh.mongo}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.webpack}
+						{logosTeh.webpack}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.styledComponents}
+						{logosTeh.styledComponents}
 					</a>
 				</LinksContainer>
 			</ListContainer>
@@ -125,28 +125,28 @@ const Skills = () => (
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.vue}
+						{logosTeh.vue}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.gatsby}
+						{logosTeh.gatsby}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.graphQl}
+						{logosTeh.graphQl}
 					</a>
 					<a
 						href='http://how2html.pl/a-target-link-html/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
-						{logos.next}
+						{logosTeh.next}
 					</a>
 					
 				</LinksContainer>

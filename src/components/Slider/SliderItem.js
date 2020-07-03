@@ -1,10 +1,12 @@
 import React from 'react';
 
-import {SliderItemStyled} from './SliderItem.styled';
+import {SliderItemStyled, SliderItemHeader, SliderItemContent, SliderItemLinks} from './SliderItem.styled';
 
 const SliderItem = (props) => (
     <SliderItemStyled>
-        {props.children}
+        <SliderItemHeader>{props.header}</SliderItemHeader>
+        <SliderItemContent>{props.content}</SliderItemContent>
+        <SliderItemLinks>{props.links}</SliderItemLinks>
     </SliderItemStyled>
 );
 

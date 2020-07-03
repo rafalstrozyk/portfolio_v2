@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { SliderStyled } from './Slider.styled';
 import SliderItemConteiner from './SliderItemConteiner';
+import {iconsFunc} from '../../assets/images/svg/svgIndex';
 
 import {test} from './SliderArray';
 
@@ -29,10 +30,10 @@ const Slider = () => {
 				);
 			})}
 			<button id='goLeft' onClick={goLeft}>
-				Left
+				{iconsFunc.chevLeft}
 			</button>
 			<button id='goRight' onClick={goRight}>
-				Right
+				{iconsFunc.chevRight}
 			</button>
 		</SliderStyled>
 	);
