@@ -9,6 +9,7 @@ export const SliderStyled = styled.div`
 	align-items: center;
 	position: relative;
 	overflow: hidden;
+	box-shadow: ${({theme}) => theme.boxShadowTwo};
 
 	& button {
 		position: absolute;
