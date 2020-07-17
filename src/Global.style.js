@@ -1,6 +1,6 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
 
     *,
     *::after,
@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle `
     
     html {
         font-size: 62.5%; // 10px
-        color: ${({theme}) => theme.primaryTextColor};
+        color: ${({ theme }) => theme.primaryTextColor};
 
         @media only screen and (max-width: 900px) {
             font-size: 56.25%; // 9px
@@ -40,4 +40,12 @@ export const GlobalStyle = createGlobalStyle `
         line-height: 1.6;  
     }
 
-`
+    main {
+        & > section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+`;

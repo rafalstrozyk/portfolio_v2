@@ -3,9 +3,6 @@ import styled from 'styled-components';
 export const SkillsSectionStyled = styled.section`
 	background-color: ${({ theme }) => theme.primaryColor};
 	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	padding: 4rem;
 
 	& h2 {
