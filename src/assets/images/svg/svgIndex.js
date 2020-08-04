@@ -24,6 +24,7 @@ import { ReactComponent as VueLogo } from './teh_logos/vue-js-logo.svg';
 import { ReactComponent as MailIcon } from './platforms/envelop.svg';
 import { ReactComponent as FBIcon } from './platforms/facebook2.svg';
 import { ReactComponent as GitHubIcon } from './platforms/github.svg';
+import { ReactComponent as PortfolioIcon } from './platforms/profile.svg';
 
 // Functionality
 import { ReactComponent as ChevronLeftIcon } from './functionality/chevron-thin-left.svg';
@@ -60,5 +61,6 @@ export const iconsFunc = {
 export const iconsPlatforms = {
     mail: <MailIcon />,
     fb: <FBIcon />,
-    github: <GitHubIcon />
+	github: <GitHubIcon />,
+	portfolio: <PortfolioIcon />
 };

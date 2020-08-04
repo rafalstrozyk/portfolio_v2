@@ -6,6 +6,10 @@ export const H1Style = styled.h1`
     position: relative;
     width: max-content;
 
+    @media only screen and (max-width: 500px) {
+         font-size: 5rem;   
+    }
+
     & span {
         color: ${({ theme }) => theme.primaryTextColor};
         font-weight: 700;

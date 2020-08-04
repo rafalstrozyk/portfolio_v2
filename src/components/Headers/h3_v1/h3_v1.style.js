@@ -22,9 +22,8 @@ export const H3TitleStyled = styled.h3`
 
 	@media only screen and (max-width: 500px) {
         width: auto; 
-		background: ${({theme}) => theme.lightPrimaryColor};
-		padding: 1rem;
-		border-radius: 20px;
+		font-size: 2.5rem;
+		font-weight: 300;
     }
     &:after {
 			content: '';

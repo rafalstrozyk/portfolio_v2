@@ -12,6 +12,9 @@ export const H2TitleStyled = styled.h2 `
     align-self: center;
     padding: 1.5rem 3.5rem;
     box-shadow: ${({ theme }) => theme.boxShadowTwo};
+    @media only screen and (max-width: 500px) {
+         font-size: 3.5rem;   
+    }
 
     transform: skewY(-4deg);
 	& > * {

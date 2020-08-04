@@ -27,6 +27,13 @@ const NavigationItems = () => (
 			duration={500}
 		>Projekty</NavigationItem>
 		<NavigationItem
+			to='sectionContact'
+			spy={true}
+			smooth={true}
+			offset={-50}
+			duration={500}
+		>Kontakt</NavigationItem>
+		<NavigationItem
 			to='sectionHeader'
 			spy={true}
 			smooth={true}
