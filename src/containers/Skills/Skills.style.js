@@ -34,8 +34,8 @@ export const Container = styled.div`
 
 	@media only screen and (max-width: 500px) {
 		width: 100%;
-		padding: 3rem;
-		margin: 2.5rem 0;
+		padding: 2rem;
+		margin: 0;
 		box-shadow: none;
 		background: none;
 		transform: none;
@@ -118,5 +118,9 @@ export const LinksContainer = styled.div`
 		width: auto;
 		height: 8rem;
 		margin-bottom: 2rem;
+
+		@media only screen and (max-width: 500px) {
+			height: 6rem;
+		}
 	}
 `;
