@@ -29,9 +29,17 @@ export const ContactStyled = styled.section`
 		padding: 1.5rem;
 		border-radius: 20px;
 
+		@media only screen and (max-width: 500px) {
+			padding: 0;
+			border-radius: none;
+		}
+
 		&:hover {
 			transform: scale(1.2);
 			background: ${({ theme }) => theme.primaryTextColor};
+			@media only screen and (max-width: 500px) {
+				background: none;
+			}
 		}
 
 		&:hover svg {
@@ -42,6 +50,10 @@ export const ContactStyled = styled.section`
 	h2 {
 		margin: 4rem 0;
 		z-index: 2;
+
+		@media only screen and (max-width: 500px) {
+			margin: 2rem 0;
+		}
 	}
 
 	/* Stars */
