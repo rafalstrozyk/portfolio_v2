@@ -4,6 +4,7 @@ export const theme = {
     primaryColor: '#009688',
     textIconsColor: '#fff',
     backColor: '#f2f2f2',
+    burgerColor: '#00574E',
     primaryTextColor: '#212121',
     secondaryTextColor: '#757575',
     dividerColor: '#BDBDBD',

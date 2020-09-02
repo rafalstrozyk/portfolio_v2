@@ -20,6 +20,7 @@ export const SkillsSectionStyled = styled.section`
 
 export const Container = styled.div`
 	width: 80%;
+	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

@@ -12,6 +12,15 @@ export const LinkStyled = styled(Link).attrs({ activeClass })`
 	letter-spacing: 2px;
 	position: relative;
 
+	& svg {
+		fill: ${({ theme }) => theme.textIconsColor};
+		transition: all 0.4s;
+
+		&:hover {
+			fill: ${({ theme }) => theme.lightPrimaryColor};
+		}
+	}
+
 	&:hover {
 		color: ${({ theme }) => theme.lightPrimaryColor};
 	}
@@ -36,6 +45,9 @@ export const LinkStyled = styled(Link).attrs({ activeClass })`
 
 	&.${activeClass} {
 		color: ${({ theme }) => theme.primaryColor};
+		& svg {
+			fill: ${({ theme }) => theme.primaryColor};
+		}
 		font-weight: 700;
 	}
 `;

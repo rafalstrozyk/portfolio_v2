@@ -15,6 +15,7 @@ export const MainSectionStyled = styled.section`
 	& div {
 		width: 80%;
 		margin-top: 3.5rem;
+		max-width: 1200px;
 
 		@media only screen and (max-width: 500px) {
 			width: 95%;

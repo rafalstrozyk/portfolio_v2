@@ -24,7 +24,7 @@ export const BurgerStyle = styled.div`
 		width: 2.5rem;
 		height: 0.25rem;
 		background: ${({ theme, open }) =>
-			open ? theme.darkPrimaryColor : theme.lightPrimaryColor};
+			open ? theme.darkPrimaryColor : theme.burgerColor};
 		border-radius: 10px;
 		transition: all 0.3s linear;
 		position: relative;

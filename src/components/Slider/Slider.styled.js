@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const SliderStyled = styled.div`
-	width: 90%;
+	width: 100%;
+	max-width: 1200px;
 	height: 70vh;
 	margin: 0;
 	padding: 0;
@@ -17,11 +18,13 @@ export const SliderStyled = styled.div`
 		transform: translateY(-50%);
 		width: 5%;
 		height: 100%;
-		background: rgba(178, 223, 219, 0.4);
+		background: rgba(178, 223, 219, 0.1);
 		border: none;
 		cursor: pointer;
 		outline: none;
 		transition: all 0.3s;
+		display: flex;
+		align-items: center;
 
 		& svg {
 			width: 5rem;
@@ -30,7 +33,7 @@ export const SliderStyled = styled.div`
 		}
 
 		&:hover {
-			background: rgba(178, 223, 219, 0.8);
+			background: rgba(178, 223, 219, 0.4);
 			& svg {
 				fill: ${({ theme }) => theme.primaryTextColor};
 				transition: all 0.3s;
@@ -54,6 +57,7 @@ export const SliderStyled = styled.div`
 
 	& #goRight {
 		right: 0;
+
 		&:active {
 			svg {
 				transform: translateX(1rem);

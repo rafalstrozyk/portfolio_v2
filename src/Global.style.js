@@ -45,6 +45,9 @@ export const GlobalStyle = createGlobalStyle`
             display: flex;
             flex-direction: column;
             align-items: center;
+            @media only screen and (min-width: 1200px) {
+            height: 100vh;
+        }
         }
         
     }
