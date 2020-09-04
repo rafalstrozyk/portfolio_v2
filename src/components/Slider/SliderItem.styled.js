@@ -21,10 +21,17 @@ export const SliderItemHeader = styled.div`
 `;
 
 export const SliderItemContent = styled.div`
-	font-size: 1.7rem;
+	font-size: 1.6rem;
+	max-width: 85%
 `;
 
 export const SliderItemLinks = styled.div`
+
+	& div {
+		& > *:not(:last-child) {
+			margin-right: 3rem;
+		}
+	}
 	& a {
 		& svg {
 			width: 3rem;

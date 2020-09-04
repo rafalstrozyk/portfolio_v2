@@ -12,6 +12,10 @@ export const ContactStyled = styled.section`
 	overflow: hidden;
 	height: 100%;
 
+	@media only screen and (max-width: 500px) {
+		height: 100vh;
+	}
+
 	& svg {
 		fill: ${({ theme }) => theme.textIconsColor};
 		width: 4rem;
@@ -673,6 +677,8 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	margin: 5rem 0;
+	height: 100%;
+	justify-content: space-between;
 
 	& > * {
 		margin-bottom: 3rem;

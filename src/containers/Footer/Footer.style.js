@@ -63,7 +63,7 @@ export const FooterStyled = styled.footer`
 		width: 3rem;
 		height: 3rem;
 		top: 15%;
-		left: 92%;
+		left: 88%;
 		display: flex;
 		align-content: center;
 		justify-content: center;
@@ -102,7 +102,8 @@ export const FooterStyled = styled.footer`
 		display: flex;
 		flex-wrap: wrap;
 		margin: 1rem 0;
-
+		max-width: 90%;
+		
 		& > *:not(:last-child) {
 			margin-right: 3rem;
 		}

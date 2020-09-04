@@ -25,91 +25,91 @@ const Skills = () => (
 				<H3Title>Co już znam</H3Title>
 				<LinksContainer>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://en.wikipedia.org/wiki/CSS'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.css}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://en.wikipedia.org/wiki/HTML'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.html}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://en.wikipedia.org/wiki/JavaScript'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.js}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://reactjs.org/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.react}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://redux.js.org/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.redux}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://expressjs.com/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.express}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://nodejs.org/en/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.node}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://www.npmjs.com/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.npm}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://sass-lang.com/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.sass}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://git-scm.com/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.git}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://www.mongodb.com/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.mongo}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://webpack.js.org/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.webpack}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://styled-components.com/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
@@ -118,31 +118,31 @@ const Skills = () => (
 				</LinksContainer>
 			</ListContainer>
 			<ListContainer>
-				<H3Title>Co chcę się nauczyć</H3Title>
+				<H3Title>Czego chcę sie nauczyć</H3Title>
 				<LinksContainer>
 				<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://vuejs.org/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.vue}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://www.gatsbyjs.com/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.gatsby}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://graphql.org/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>
 						{logosTeh.graphQl}
 					</a>
 					<a
-						href='http://how2html.pl/a-target-link-html/'
+						href='https://nextjs.org/'
 						rel='noopener noreferrer'
 						target='_blank'
 					>

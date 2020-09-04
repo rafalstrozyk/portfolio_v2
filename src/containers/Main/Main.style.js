@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const MainSectionStyled = styled.section`
 	background-color: ${({ theme }) => theme.backColor};
 	height: 100%;
-	padding: 4.5rem;
+	padding: 4rem;
 	@media only screen and (max-width: 500px) {
 		padding: 0 0 3rem 0;
 
@@ -18,7 +18,7 @@ export const MainSectionStyled = styled.section`
 		max-width: 1200px;
 
 		@media only screen and (max-width: 500px) {
-			width: 95%;
+			width: 85%;
 		}
 
 		&:not(:last-child) {

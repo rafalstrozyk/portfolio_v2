@@ -7,6 +7,7 @@ export const SkillsSectionStyled = styled.section`
 
 	@media only screen and (max-width: 500px) {
 		padding: 0;
+		min-height: 90vh;
 	}
 
 	& h2 {

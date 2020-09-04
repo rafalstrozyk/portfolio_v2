@@ -15,7 +15,6 @@ import { ReactComponent as SassLogo } from './teh_logos/sass-logo.svg';
 import { ReactComponent as WebpackLogo } from './teh_logos/webpack-logo.svg';
 import { ReactComponent as StyledComponentsLogo } from './teh_logos/styled-components-logo.svg';
 import { ReactComponent as GatsbyLogo } from './teh_logos/gatsby-logo.svg';
-// import {ReactComponent as GulpLogo} from './teh_logos/gulp-logo.svg';
 import { ReactComponent as GraphQLLogo } from './teh_logos/graphQL-logo.svg';
 import { ReactComponent as NextjsLogo } from './teh_logos/nextjs-logo.svg';
 import { ReactComponent as VueLogo } from './teh_logos/vue-js-logo.svg';
@@ -30,6 +29,8 @@ import { ReactComponent as PortfolioIcon } from './platforms/profile.svg';
 import { ReactComponent as ChevronLeftIcon } from './functionality/chevron-thin-left.svg';
 import { ReactComponent as ChevronRightIcon } from './functionality/chevron-thin-right.svg';
 import { ReactComponent as ChevronUpIcon } from './functionality/chevron-thin-up.svg';
+import { ReactComponent as BubbleIcon } from './functionality/bubble.svg';
+import { ReactComponent as LinkIcon } from './functionality/link.svg';
 
 export const logosTeh = {
 	css: <Css3Logo />,
@@ -55,7 +56,9 @@ export const logosTeh = {
 export const iconsFunc = {
 	chevLeft: <ChevronLeftIcon />,
 	chevRight: <ChevronRightIcon />,
-	chefUp: <ChevronUpIcon />
+	chefUp: <ChevronUpIcon />,
+	bubbleIcon: <BubbleIcon />,
+	linkIcon: <LinkIcon />
 };
 
 export const iconsPlatforms = {
